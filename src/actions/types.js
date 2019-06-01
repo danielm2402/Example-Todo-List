@@ -1,0 +1,4 @@
+export const MOSTRAR_TAREAS = "MOSTRAR_TAREAS";
+export const ELIMIAR_TAREA= "ELIMINAR_TAREA";
+export const ADD_TAREA = "ADD_TAREA";
+export const ACTUALIZAR_TAREA='ACTUALIZAR_TAREA';
