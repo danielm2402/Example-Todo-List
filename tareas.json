@@ -2,7 +2,7 @@
   "tareas": [
     {
       "id": 3,
-      "nombre": "Realizar algoa",
+      "nombre": "Realizar algo",
       "descripcion": "PRUEBA1",
       "responsable": "DANIEL",
       "completed": "false"

@@ -17,10 +17,10 @@ class Tareas extends Component{
 
         return(
             <div>
-                <h1>Componente Tareas</h1>
+                <h1>Todo List</h1>
                 <ul className="list-inline">
                 
-                
+    
                 { this.props.tareas.map((tarea, index)=>{
                     return <Tarea key={index} tarea={tarea}/>
       

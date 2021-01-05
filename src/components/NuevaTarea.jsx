@@ -21,7 +21,6 @@ class NuevaTarea extends Component {
     
     saveTarea=()=>
     {
-        console.log((this.props.tareas.length))
         this.props.addTarea(this.state);
         this.props.history.goBack();
     }

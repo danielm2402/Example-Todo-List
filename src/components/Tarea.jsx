@@ -6,17 +6,10 @@ import { withRouter } from "react-router-dom";
 import logo  from "../logo.svg"
 
 class Tarea extends Component{
-    state={
-        id: this.props.tarea.id,
-        nombre: this.props.tarea.nombre,
-        descripcion: this.props.tarea.descripcion,
-        responsable: this.props.tarea.responsable,
-        completed: this.props.tarea.completed
-    };
+    
     borrarTarea=()=>
     {
-        console.log(this.state.id)
-        this.props.deleteTarea(this.state.id);
+        this.props.deleteTarea(this.props.tarea.id);
     }
     actualizarTarea=()=>
     {
